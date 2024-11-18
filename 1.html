@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блоки в рядок</title>
+    <style>
+        .container {
+            display: flex; /* Встановлюємо flex-контейнер */
+            justify-content: center; /* Вирівнювання по центру */
+            gap: 10px; /* Простір між блоками */
+        }
+        .block {
+            width: 150px;
+            height: 150px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            line-height: 150px; /* Центрування тексту */
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="block">Блок 1</div>
+    <div class="block">Блок 2</div>
+    <div class="block">Блок 3</div>
+</div>
+
+</body>
+</html>
